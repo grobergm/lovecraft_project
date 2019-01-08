@@ -1,0 +1,26 @@
+.backdrop{
+	width:100%;
+}
+
+.darkText1{
+color:#002222;
+position:fixed;
+}
+
+.darkText2{
+color:#002222;
+position:fixed;
+top:70%
+}
+
+.lightText1{
+	color:white;
+	position:fixed;
+	left:50%;
+}
+
+.lightText2{
+	color:white;
+	position:fixed;
+	top:50%
+}
