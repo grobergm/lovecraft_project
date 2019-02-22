@@ -1,26 +1,56 @@
-.backdrop{
-	width:100%;
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+/* font-family: 'Amatic SC', cursive; */
+font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+	margin-left:20px;
+}
+.triangle{
+	height:0;
+	width:0;
+	border-top:100vw solid white;
+	border-right:100vw solid black;
+	position:relative;
+	overflow:hidden;
 }
 
 .darkText1{
-color:#002222;
+color:black;
 position:fixed;
+top: 60px;
 }
 
 .darkText2{
-color:#002222;
+color:black;
 position:fixed;
-top:70%
+top:180px;
 }
 
 .lightText1{
 	color:white;
 	position:fixed;
-	left:50%;
+	top:120px;
 }
 
 .lightText2{
 	color:white;
 	position:fixed;
-	top:50%
+	top:240px;
+}
+
+.dark-sky{
+	width:100vw;
+	height:300vw;
+	background-color:black;
+}
+.light-sky{
+	width:100vw;
+	height:300vw;
+	background-color:white;
 }
